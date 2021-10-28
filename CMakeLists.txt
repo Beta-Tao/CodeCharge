@@ -7,3 +7,5 @@ add_executable(301_remove-invalid-parentheses leetcode/editor/cn/301_remove-inva
 set_target_properties(301_remove-invalid-parentheses PROPERTIES RUNTIME_OUTPUT_DIRECTORY "${PROJECT_SOURCE_DIR}/bin")
 add_executable(1_two-sum leetcode/editor/cn/1_two-sum.cpp)
 set_target_properties(1_two-sum PROPERTIES RUNTIME_OUTPUT_DIRECTORY "${PROJECT_SOURCE_DIR}/bin")
+add_executable(869_reordered-power-of-2 leetcode/editor/cn/869_reordered-power-of-2.cpp)
+set_target_properties(869_reordered-power-of-2 PROPERTIES RUNTIME_OUTPUT_DIRECTORY "${PROJECT_SOURCE_DIR}/bin")
