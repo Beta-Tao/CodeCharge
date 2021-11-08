@@ -20,6 +20,7 @@ string countDigits(int n) {
 unordered_set<string> powerOf2Digits;
 
 int init = []() {
+    /* 按位左移则乘二 */
     for (int n = 1; n <= 1e9; n <<= 1) {
         powerOf2Digits.insert(countDigits(n));
     }
