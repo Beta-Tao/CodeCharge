@@ -1,7 +1,9 @@
 cmake_minimum_required(VERSION 2.9)
 project(CodeCharge)
 
-set(CMAKE_CXX_STANDARD 14)
+#include_directories("/usr/include/eigen3")
+
+set(CMAKE_CXX_STANDARD 17)
 
 add_executable(301_remove-invalid-parentheses leetcode/editor/cn/301_remove-invalid-parentheses.cpp)
 set_target_properties(301_remove-invalid-parentheses PROPERTIES RUNTIME_OUTPUT_DIRECTORY "${PROJECT_SOURCE_DIR}/bin")
@@ -19,3 +21,12 @@ add_executable(138_copy-list-with-random-pointer leetcode/editor/cn/138_copy-lis
 set_target_properties(138_copy-list-with-random-pointer PROPERTIES RUNTIME_OUTPUT_DIRECTORY "${PROJECT_SOURCE_DIR}/bin")
 add_executable(1218_longest-arithmetic-subsequence-of-given-difference leetcode/editor/cn/1218_longest-arithmetic-subsequence-of-given-difference.cpp)
 set_target_properties(1218_longest-arithmetic-subsequence-of-given-difference PROPERTIES RUNTIME_OUTPUT_DIRECTORY "${PROJECT_SOURCE_DIR}/bin")
+add_executable(8_string-to-integer-atoi leetcode/editor/cn/8_string-to-integer-atoi.cpp)
+set_target_properties(8_string-to-integer-atoi PROPERTIES RUNTIME_OUTPUT_DIRECTORY "${PROJECT_SOURCE_DIR}/bin")
+add_executable(318_maximum-product-of-word-lengths leetcode/editor/cn/318_maximum-product-of-word-lengths.cpp)
+set_target_properties(318_maximum-product-of-word-lengths PROPERTIES RUNTIME_OUTPUT_DIRECTORY "${PROJECT_SOURCE_DIR}/bin")
+
+#add_executable(rot2cayley src/rot2cayley.cpp)
+#add_executable(cayley2rot src/cayley2rot.cpp)
+#add_executable(Offer_47_li-wu-de-zui-da-jie-zhi-lcof leetcode/editor/cn/Offer_47_li-wu-de-zui-da-jie-zhi-lcof.cpp)
+#add_executable(3_longest-substring-without-repeating-characters leetcode/editor/cn/3_longest-substring-without-repeating-characters.cpp)
