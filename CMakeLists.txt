@@ -13,8 +13,6 @@ add_executable(Offer_05_ti-huan-kong-ge-lcof "leetcode/editor/cn/Offer_05_ti-hua
 set_target_properties(Offer_05_ti-huan-kong-ge-lcof PROPERTIES RUNTIME_OUTPUT_DIRECTORY "${PROJECT_SOURCE_DIR}/bin")
 add_executable(Offer_09_yong-liang-ge-zhan-shi-xian-dui-lie-lcof leetcode/editor/cn/Offer_09_yong-liang-ge-zhan-shi-xian-dui-lie-lcof.cpp)
 set_target_properties(Offer_09_yong-liang-ge-zhan-shi-xian-dui-lie-lcof PROPERTIES RUNTIME_OUTPUT_DIRECTORY "${PROJECT_SOURCE_DIR}/bin")
-add_executable(Offer_20_biao-shi-shu-zhi-de-zi-fu-chuan-lcof leetcode/editor/cn/Offer_20_biao-shi-shu-zhi-de-zi-fu-chuan-lcof.cpp)
-set_target_properties(Offer_20_biao-shi-shu-zhi-de-zi-fu-chuan-lcof PROPERTIES RUNTIME_OUTPUT_DIRECTORY "${PROJECT_SOURCE_DIR}/bin")
 add_executable(500_keyboard-row leetcode/editor/cn/500_keyboard-row.cpp)
 set_target_properties(500_keyboard-row PROPERTIES RUNTIME_OUTPUT_DIRECTORY "${PROJECT_SOURCE_DIR}/bin")
 add_executable(138_copy-list-with-random-pointer leetcode/editor/cn/138_copy-list-with-random-pointer.cpp)
