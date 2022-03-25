@@ -3,7 +3,7 @@ project(CodeCharge)
 
 #include_directories("/usr/include/eigen3")
 
-set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD 14)
 
 add_executable(301_remove-invalid-parentheses leetcode/editor/cn/301_remove-invalid-parentheses.cpp)
 set_target_properties(301_remove-invalid-parentheses PROPERTIES RUNTIME_OUTPUT_DIRECTORY "${PROJECT_SOURCE_DIR}/bin")
@@ -30,3 +30,4 @@ set_target_properties(318_maximum-product-of-word-lengths PROPERTIES RUNTIME_OUT
 #add_executable(cayley2rot src/cayley2rot.cpp)
 #add_executable(Offer_47_li-wu-de-zui-da-jie-zhi-lcof leetcode/editor/cn/Offer_47_li-wu-de-zui-da-jie-zhi-lcof.cpp)
 #add_executable(3_longest-substring-without-repeating-characters leetcode/editor/cn/3_longest-substring-without-repeating-characters.cpp)
+add_executable(172_factorial-trailing-zeroes leetcode/editor/cn/172_factorial-trailing-zeroes.cpp)
